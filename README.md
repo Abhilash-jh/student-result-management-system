@@ -46,7 +46,19 @@ The system allows students to search and view their academic results, while admi
 - Mongoose
 
 ---
+## 📸 Screenshots
 
+### 🏠 Home Page
+
+![Home Page](screenshots/home.png)
+
+### 👨‍💼 Admin Dashboard
+
+![Admin Dashboard](screenshots/admin-dashboard.png)
+
+### 📊 Student Result
+
+![Student Result](screenshots/student-result.png)
 ## 📂 Project Structure
 
 ```text
@@ -70,3 +82,5 @@ student-result-management-system/
 │
 ├── .gitignore
 └── README.md
+
+
