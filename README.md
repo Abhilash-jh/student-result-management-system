@@ -50,15 +50,15 @@ The system allows students to search and view their academic results, while admi
 
 ### 🏠 Home Page
 
-![Home Page](screenshots/home.png)
+![Home Page](screenshots/Home.png)
 
 ### 👨‍💼 Admin Dashboard
 
-![Admin Dashboard](screenshots/admin-dashboard.png)
+![Admin Dashboard](screenshots/Admin.png)
 
 ### 📊 Student Result
 
-![Student Result](screenshots/student-result.png)
+![Student Result](screenshots/Result.png)
 ## 📂 Project Structure
 
 ```text
