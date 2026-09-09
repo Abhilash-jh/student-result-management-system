@@ -1,5 +1,5 @@
 // src/api.js
-const API_BASE = ''; // keep this empty if CRA proxy is set to backend
+const API_BASE = process.env.REACT_APP_API_BASE || 'http://localhost:5000'; // keep this empty if CRA proxy is set to backend
 
 function getCurrentToken(passedToken) {
   return passedToken || localStorage.getItem('adminToken') || '';
