@@ -25,7 +25,9 @@ app.get('/api/ping', (req, res) => res.json({ ok: true, database: 'mongodb' }));
 async function startServer() {
   try {
     await connectDB();
-    app.listen(PORT, () => console.log(`Backend running on http://localhost:${PORT}`));
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`Backend running on port ${PORT}`);
+});
   } catch (err) {
     console.error('MongoDB connection failed:', err.message);
     process.exit(1);
